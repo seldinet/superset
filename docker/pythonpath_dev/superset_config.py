@@ -112,3 +112,5 @@ try:
     )
 except ImportError:
     logger.info("Using default Docker config...")
+
+CSV_EXPORT={"encoding": "utf_8_sig"}
